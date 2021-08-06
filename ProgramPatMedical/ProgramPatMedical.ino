@@ -25,7 +25,7 @@ ezOutput K6_motorSpate(11);
 ezOutput K7_motorPicioare(12);
 
 void setup() {
-  // put your setup code here, to run once:
+
   btn_patSus.setDebounceTime(50);
   btn_patJos.setDebounceTime(50);
   btn_spateSus.setDebounceTime(50);
@@ -45,7 +45,7 @@ void setup() {
   K6_motorSpate.high();
   K7_motorPicioare.high();
 
- // Serial.begin(9600);
+
 }
 
 void loop() {
